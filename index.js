@@ -1,8 +1,8 @@
-import Books from "./modules/addbook.js";
-import retrieveFromLocalStorage from "./modules/getdata.js";
-import displayBooks from "./modules/displaybooks.js";
-import deleteBook from "./modules/deletebook.js";
-import { DateTime } from "./modules/luxon.min.js";
+import Books from './modules/addbook.js';
+import retrieveFromLocalStorage from './modules/getdata.js';
+import displayBooks from './modules/displaybooks.js';
+import deleteBook from './modules/deletebook.js';
+import { DateTime } from './modules/luxon.min.js';
 
 const titleObj = document.querySelector('#title');
 const authorObj = document.querySelector('#author');
@@ -10,35 +10,33 @@ const formObj = document.querySelector('#form');
 const container = document.getElementById('books-list');
 const date = document.querySelector('.date-time');
 
-
 const book = new Books();
 book.booksArray = retrieveFromLocalStorage('store') || [];
 
-book.booksArray.forEach(e => {
+book.booksArray.forEach((e) => {
   displayBooks(e);
 });
-
 
 formObj.addEventListener('submit', (e) => {
   e.preventDefault();
   book.addBook(titleObj.value, authorObj.value);
   container.innerHTML = '';
   localStorage.setItem('store', JSON.stringify(book.booksArray));
-  book.booksArray.forEach(e => {
+  book.booksArray.forEach((e) => {
     displayBooks(e);
-  })
-  formObj.reset();
-  } )
-
-  container.addEventListener('click', (e) => {
-    deleteBook(e.target);
   });
+  formObj.reset();
+});
 
-  if (book.booksArray.length === 0) {
-    container.innerHTML = '<p class="no-books">No books available!</p>';
-  }
-  
-  const homePageSection = document.getElementById('home-page');
+container.addEventListener('click', (e) => {
+  deleteBook(e.target);
+});
+
+if (book.booksArray.length === 0) {
+  container.innerHTML = '<p class="no-books">No books available!</p>';
+}
+
+const homePageSection = document.getElementById('home-page');
 const addPageSection = document.getElementById('add-page');
 const contactPageSection = document.getElementById('contact-page');
 

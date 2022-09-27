@@ -1,7 +1,7 @@
-import Books from "./addbook.js";
+import Books from './addbook.js';
 
-let book = new Books();
-  const retrieveFromLocalStorage = (key) => {
+const book = new Books();
+const retrieveFromLocalStorage = (key) => {
   book.booksArray = JSON.parse(localStorage.getItem(key));
   return book.booksArray;
 };

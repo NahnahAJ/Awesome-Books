@@ -1,56 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books
 
-> Description the project.
+> In this project, I restructured my Awesome books app code with the goal to make it more organized by using javaScript modules. 
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- Css
+- Javascript Modules
+- Luxon
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link of Awesome Books](https://nahnahaj.github.io/Awesome-Books/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Have a Desktop or Laptop Computer running on with Windows, Mac OS or Linux operating system.
+- Have git installed on the Computer
+- Have a browser install on the Computer
+
 ### Setup
+
+- If it suits you, on your local computer, create a directory in your preferred location (e.g in the Desktop or Document directory)
 
 ### Install
 
+- Open your Terminal/Powershell or any command line interface you use, then navigate to your created above directory or the directory you'll like to clone this project directory.
+- Type `git clone https://github.com/NahnahAJ/Awesome-Books.git` if your're using https with git or `git clonegit@github.com:NahnahAJ/Awesome-Books.git` if your preferred is ssh and hit enter.
+- Navigate to the `Awesome-Books` directory on your local computer in your above chosen directory and open the `index.html` file.
+
 ### Usage
 
-### Run tests
-
-### Deployment
+- You can view the HTML document in your preferred or default browser.
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Nahnah Ahjuwah**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/NahnahAJ)
+- Twitter: [@twitterhandle](https://https://twitter.com/NahnahAhjuwah)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/felicia-awuah-0674a7152/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,12 +64,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Luxon Library
+- Microverse
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

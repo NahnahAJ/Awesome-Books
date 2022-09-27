@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book store</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body id="body">
+    <!-- <div> -->
+    <nav>
+      <p>Awesome Books</p>
+      <ul class="nav-link">
+        <li id="lists" class="active"><a href="#home-page">List</a></li>
+        <li id="add-link"><a href="#add-page">Add new</a></li>
+        <li id="contact"><a href="#contact-page">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="date-time">Time</div>
+    <section id="home-page">
+      <div class="home">
+        <h1>All awesome books</h1>
+        <p id="books-list" class="books-list"></p>
+      </div>
+    </section>
+
+    <section id="add-page">
+      <div class="form-styles">
+        <h3>Add a new book</h3>
+        <form id="form">
+          <input type="text" id="title" placeholder="Title" required />
+          <input type="text" id="author" placeholder="Author" required />
+          <button type="submit" id="add">Add</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-page">
+      <div class="contactSection">
+        <h3 class="contact-header">Contact Information</h3>
+        <p>
+          Do you have any questions or you just want to say "Hello?" You can
+          reach out to us!
+        </p>
+        <ul class="contact-info">
+          <li>Our e-mails: nahnahajuwah@gmail.com | djmulinde@gmail.com</li>
+          <li>Our phone numbers: +256 787 623601</li>
+          <li>Our address: Streetname 84503 Accra, Ghana</li>
+        </ul>
+      </div>
+    </section>
+    <!-- </div> -->
+    <footer>
+      <p>Copyright of Derrick & Nahnah</p>
+      <p>&copy; 2022</p>
+    </footer>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Open your Terminal/Powershell or any command line interface you use, then navigate to your created above directory or the directory you'll like to clone this project directory.
 - Type `git clone https://github.com/NahnahAJ/Awesome-Books.git` if your're using https with git or `git clonegit@github.com:NahnahAJ/Awesome-Books.git` if your preferred is ssh and hit enter.
-- Navigate to the `construction-page` directory on your local computer in your above chosen directory and open the `index.html` file.
+- Navigate to the `Awesome-Books` directory on your local computer in your above chosen directory and open the `index.html` file.
 
 ### Usage
 
